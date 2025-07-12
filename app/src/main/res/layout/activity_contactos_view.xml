@@ -20,6 +20,7 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <SearchView
+        android:id="@+id/searchbar"
         android:layout_width="0dp"
         android:layout_height="27dp"
         android:layout_marginStart="24dp"
@@ -32,6 +33,7 @@
         app:layout_constraintVertical_bias="0.112" />
 
     <ListView
+        android:id="@+id/listcontactos"
         android:layout_width="357dp"
         android:layout_height="517dp"
         android:layout_marginStart="24dp"
@@ -44,7 +46,7 @@
         app:layout_constraintVertical_bias="0.542" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btneliminar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Eliminar Contacto"
@@ -56,7 +58,7 @@
         app:layout_constraintVertical_bias="0.953" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnactualizar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Actualizar Contacto"

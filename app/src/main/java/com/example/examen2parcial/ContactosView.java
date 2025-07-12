@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +14,9 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class ContactosView extends AppCompatActivity {
 
-    Button btnatras;
+    Button btnatras, btneliminar, btnactulizar;
+
+    ListView listcontactos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +25,10 @@ public class ContactosView extends AppCompatActivity {
         setContentView(R.layout.activity_contactos_view);
 
         btnatras = (Button) findViewById(R.id.btnatras);
+        btneliminar = (Button) findViewById(R.id.btneliminar);
+        btnactulizar = (Button) findViewById(R.id.btnactualizar);
+
+        listcontactos = (ListView) findViewById(R.id.listcontactos);
 
         btnatras.setOnClickListener(new View.OnClickListener() {
             @Override

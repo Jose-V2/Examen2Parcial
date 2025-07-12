@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/crearfirma"
+        android:id="@+id/btnfirma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Firma digital"
@@ -31,7 +31,7 @@
         app:layout_constraintVertical_bias="0.307" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/txtnombre"
         android:layout_width="0dp"
         android:layout_height="37dp"
         android:layout_marginStart="20dp"
@@ -54,11 +54,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintTop_toBottomOf="@+id/txtnombre"
         app:layout_constraintVertical_bias="0.03" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/txttelefono"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -82,11 +82,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3"
+        app:layout_constraintTop_toBottomOf="@+id/txttelefono"
         app:layout_constraintVertical_bias="0.009" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/txtlatitud"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -110,11 +110,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText4"
+        app:layout_constraintTop_toBottomOf="@+id/txtlatitud"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editTextText5"
+        android:id="@+id/txtlongitud"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -129,7 +129,7 @@
         app:layout_constraintVertical_bias="0.75" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnsalvar"
         android:layout_width="174dp"
         android:layout_height="47dp"
         android:text="Slavar Contacto"
